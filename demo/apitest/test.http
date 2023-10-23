@@ -1,0 +1,11 @@
+###
+GET http://localhost:8080/test
+
+###
+GET http://localhost:8080/test
+content-type: application/json
+
+{
+    "id": 123,
+    "message": "kjs"
+}
