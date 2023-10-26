@@ -12,3 +12,12 @@ content-type: application/json
 
 ###
 GET http://localhost:8080/todo/test
+
+###
+POST http://localhost:8080/todo
+content-type: application/json
+
+{
+    "title": "첫 포스트",
+    "done": true
+}
