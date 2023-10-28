@@ -21,3 +21,26 @@ content-type: application/json
     "title": "첫 포스트",
     "done": true
 }
+
+###
+GET http://localhost:8080/todo
+
+###
+PUT http://localhost:8080/todo
+content-type: application/json
+
+{
+    "id": "5aa6099c8b74c7fc018b74c854120002",
+    "title": "첫 포스트 수정 테스트",
+    "done": true
+}
+
+###
+DELETE http://localhost:8080/todo
+content-type: application/json
+
+{
+    "id": "5aa6099c8b74c7fc018b74c839750000",
+    "title": "첫 포스트",
+    "done": true
+},
