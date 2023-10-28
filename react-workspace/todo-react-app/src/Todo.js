@@ -11,7 +11,7 @@ const Todo = (props) => {
                 name={item.id}
                 checked={item.done}
             />
-            <label id={item.id}>item.title</label>
+            <label id={item.id}>{item.title}</label>
         </div>
     );
 };
