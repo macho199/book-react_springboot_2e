@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Todo from './Todo';
+import AddTodo from './AddTodo';
 import React, { useState } from 'react';
-import { List, Paper } from '@mui/material';
+import { Container, List, Paper } from '@mui/material';
 
 function App() {
   const [items, setItem] = useState([
@@ -30,7 +31,10 @@ function App() {
 
   return (
     <div className="App">
-      {todoItems}
+      <Container maxWidth="md">
+        <AddTodo />
+        {todoItems}
+      </Container>
     </div>
   );
 }
