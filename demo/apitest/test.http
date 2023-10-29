@@ -18,7 +18,7 @@ POST http://localhost:8080/todo
 content-type: application/json
 
 {
-    "title": "첫 포스트",
+    "title": "두번째 포스트",
     "done": true
 }
 
